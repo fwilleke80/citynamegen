@@ -5,7 +5,7 @@
         "doubleThreshold": 0.9
     },
     "strings": {
-        "generating": "Generating %i cities:"
+        "generating": "%i Städte die man mal besuchen sollte:"
     },
     "prefixes": [
         "Alt",
