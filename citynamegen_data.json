@@ -1,6 +1,6 @@
 {
     "settings": {
-        "prefixThreshold": 0.85,
+        "prefixThreshold": 0.87,
         "suffixThreshold": 0.89,
         "doubleThreshold": 0.9
     },
@@ -54,7 +54,6 @@
             "Aschaffen",
             "Auer",
             "Augs",
-            "Bam",
             "Bam",
             "Barn",
             "Biber",
@@ -169,6 +168,7 @@
             "Schwielen",
             "Senften",
             "Sicker",
+            "Sonnen",
             "Spuck",
             "Stümper",
             "Stutt",
@@ -242,6 +242,7 @@
             "riede",
             "rode",
             "sack",
+            "schanze",
             "scheid",
             "schweig",
             "see",
