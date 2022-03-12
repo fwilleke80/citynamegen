@@ -10,6 +10,16 @@
             "request": "launch",
             "program": "${workspaceFolder}/cityname.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "City Name Stats",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/cityname.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--stats"
+            ]
         }
     ]
 }
