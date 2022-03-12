@@ -1,3 +1,4 @@
+import datetime
 import argparse
 import random
 import json
@@ -6,6 +7,7 @@ import json
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("count", nargs="?", type=int, default=15, help="Provide any whole number to generate this many city names")
+    parser.add_argument("-s", "--seed", type=int, default=datetime.datetime.now(), help="Provide a random seed value here, to get reproducible results")
     parser.add_argument("--stats", action="store_true", help="Print statistics about the cityname data")
     args = parser.parse_args()
 
@@ -42,6 +44,9 @@ def main():
         print("")
 
         return
+
+    # Seed random generator
+    random.seed(args.seed)
 
     # Generate name(s)
     if args.count > 1:
